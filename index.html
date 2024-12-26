@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofadi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Камінь, ножиці, папір</title>
+</head>
+<body>
+    <h1>Гра "Камінь, ножиці, папір"</h1>
+    <p>Обери свій варіант:</p>
+    <div class="buttons">
+        <button onclick="playGame('Камінь')">Камінь</button>
+        <button onclick="playGame('Ножиці')">Ножиці</button>
+        <button onclick="playGame('Папір')">Папір</button>
+     </div>
+
+    <h2 id="result"></h2>
+
+    <p>Користувач: <span id="userScore">0</span></p>
+    <p>Комп'ютер: <span id="computerScore">0</span></p>
+
+    <img src="https://avatars.dzeninfra.ru/get-zen_doc/4303740/pub_6290d6d632cb4f17e48cc558_6290d77498a878602e62354c/scale_1200" alt="">
+
+    <script src="./script.js"></script>
+</body>
+</html>
